@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicMatch - Find Love Through Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 MusicMatch</h1>
+        <p>Find your perfect match based on music taste!</p>
+
+        <form id="matchForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <label for="genre">Favorite Music Genre:</label>
+            <select id="genre" required>
+                <option value="">--Select a Genre--</option>
+                <option value="pop">Pop</option>
+                <option value="rock">Rock</option>
+                <option value="hiphop">Hip-Hop</option>
+                <option value="rnb">R&B</option>
+                <option value="jazz">Jazz</option>
+                <option value="afrobeats">Afrobeats</option>
+                <option value="classical">Classical</option>
+                <option value="country">Country</option>
+            </select>
+
+            <button type="submit">Find Your Match 🎶</button>
+        </form>
+    </div>
+
+    <script>
+        document.getElementById('matchForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('name').value;
+            const genre = document.getElementById('genre').value;
+
+            alert(`${name}, we’ll find someone who loves ${genre} just like you! 🎧`);
+        });
+    </script>
+</body>
+</html>
+
