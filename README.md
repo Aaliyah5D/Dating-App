@@ -50,7 +50,7 @@ connections.
 3. Open `index.html` in your browser  
 
 ## About Me
-Hi, I’m Aaliyah 👋  
+Hi, I’m Aaliyah 
 I’m an aspiring software developer passionate about building meaningful
 technology and creating digital solutions that bring people together.
 
