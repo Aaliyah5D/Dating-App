@@ -54,5 +54,5 @@ Hi, I’m Aaliyah
 I’m an aspiring software developer passionate about building meaningful
 technology and creating digital solutions that bring people together.
 
-Email: dubeaaliyah28@gmail.com  
+Email: aaliyahdube28@gmail.com  
 LinkedIn: Aaliyah Dube 
